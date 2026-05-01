@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+}
+
+.banner {
+  height: 400px;
+  background: url("https://via.placeholder.com/1200x400") center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row img {
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.row img:hover {
+  transform: scale(1.2);
+}
+
+.row-title {
+  margin-left: 20px;
+}
